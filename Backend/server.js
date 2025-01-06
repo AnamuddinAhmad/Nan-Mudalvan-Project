@@ -10,6 +10,7 @@ const items = require("./db/Seller/Additem");
 const myorders = require("./db/Users/myorders");
 const WishlistItem = require("./db/Users/Wishlist");
 
+//Extracting the express in to app
 const app = express();
 
 app.use(express.json());
