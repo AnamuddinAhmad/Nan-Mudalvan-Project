@@ -15,6 +15,8 @@ const app = express();
 
 app.use(express.json());
 
+
+//Cors for the security purposes 
 app.use(
   cors({
     origin: ["http://localhost:5173"],
